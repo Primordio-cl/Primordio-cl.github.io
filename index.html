@@ -203,7 +203,7 @@
         <div class="tl-desc">
           <p><strong>09:00 — Parque Quinta Normal:</strong> Pasea por los jardines y museos (Historia Natural, Ferroviario, entre otros). Se llega en Metro Línea 5 desde la estación Baquedano hasta la parada Quinta Normal.(Av. Matucana 520).</p>
           <p><strong>13:00 — Almuerzo Barrio Yungay:</strong> ★4.5•Restaurante Espacio Gárgola — ★4.6•Restaurante Govinda's Vegano Vegetariano.</p>
-          <p><strong>15:30 — Paseo por Barrio Italia:</strong> Es el ipicentro del diseño independiente, el arte urbano y las compras boutique en Santiago. Aquí la experiencia se vive caminando por casonas del siglo XX, remodelada en galerías. Lugares: La factoria Italia, Museo del sombrero, paseo estación Italia (galería tipo laverinto).¿Qué encontrar? Artesanías contemporánea, ropa con diseño de autor, cosmetica natural. </p>
+          <p><strong>15:30 — Paseo por Barrio Italia:</strong> Es el epicentro del diseño independiente, el arte urbano y las compras boutique en Santiago. Aquí la experiencia se vive caminando por casonas del siglo XX, remodelada en galerías. Lugares: La factoria Italia, Museo del sombrero, paseo estación Italia (galería tipo laberinto).¿Qué encontrar? Artesanías contemporánea, ropa con diseño de autor, cosmetica natural. </p>
           <p><strong>18:30 — Cierre del día Cena (a elección):</strong> Si el tiempo alcanza, cierra la noche cenando en <strong>★4.5•Restaurante Galpón Italia</strong> — <strong>★4.6• Restaurante El Ciudadano (Barrio Italia).</strong></p>
         </div>
       </div>
@@ -348,6 +348,10 @@
             <circle class="dot cat-mirador" r="6"></circle>
             <text x="-9" y="4" text-anchor="end">Templo Bahá'í</text>
           </g>
+          <g class="pin" data-key="mut" transform="translate(440,300)">
+            <circle class="dot cat-barrio" r="6"></circle>
+            <text x="-9" y="4" text-anchor="end">Mercado Urbano Tobalaba (MUT)</text>
+          </g>
         </svg>
         <div class="legend">
           <span class="legend-item"><span class="legend-dot" style="background:var(--rust)"></span>Centro histórico</span>
@@ -470,6 +474,7 @@
 
 <script>
   const places = {
+    mut: { name:"MUT — Mercado Urbano Tobalaba", cat:"barrio", catLabel:"Barrio", dist:"Av. Apoquindo 2730, esquina Encomenderos, Las Condes", desc:"El primer mercado urbano de Chile: 5 pisos con locales de diseño, galerías, cafeterías y una gran zona gastronómica (El Mercado, en el piso -2). Cómo llegar: conexión subterránea directa desde el Metro Tobalaba (Líneas 1 y 4) — sales directo dentro del MUT sin salir a la calle. También accesible caminando por Av. Apoquindo 2730, en auto por Encomenderos 65 / El Bosque Norte 50, o en bicicleta por Roger de Flor 2725. Horario: todos los días de 10:00 a 21:30 hrs (algunos locales pueden variar)." },
     plazaarmas: { name:"Plaza de Armas", cat:"centro", catLabel:"Centro histórico", dist:"Punto de partida", desc:"El corazón fundacional de Santiago desde 1541, con la Catedral Metropolitana, el Museo Histórico Nacional y el Correo Central alrededor." },
     lamoneda: { name:"Palacio de La Moneda", cat:"centro", catLabel:"Centro histórico", dist:"1 km de Plaza de Armas", desc:"Sede del gobierno de Chile. Se puede ver el cambio de guardia y recorrer la Plaza de la Ciudadanía." },
     mercadocentral: { name:"Mercado Central", cat:"centro", catLabel:"Centro histórico", dist:"0,5 km de Plaza de Armas", desc:"Mercado de mariscos y pescados bajo una estructura de hierro del siglo XIX, con varios restaurantes tradicionales dentro." },
