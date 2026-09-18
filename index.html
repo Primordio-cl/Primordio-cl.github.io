@@ -130,12 +130,13 @@
   .tip-icon{ width:38px; height:38px; border-radius:50%; background:var(--surface); display:flex; align-items:center; justify-content:center; margin-bottom:14px; }
   .tip-icon svg{ width:18px; height:18px; color:var(--rust); }
   .tip-card h3{ font-size:1rem; margin-bottom:8px; }
-  .tip-card p{ font-size:0.86rem; color:var(--ink-soft); line-height:1.6; margin:0; }
+  .tip-card p{ font-size:0.86rem; color:var(--ink-soft); line-height:1.6; margin:0 0 8px; text-align:justify; text-justify:inter-word; }
+  .tip-card p:last-child{ margin-bottom:0; }
   @media (max-width:820px){ .tips-grid{ grid-template-columns:1fr; } }
   .rest-card .rzone{ font-family:'IBM Plex Mono', monospace; font-size:0.72rem; color:var(--wine); text-transform:uppercase; letter-spacing:0.05em; margin-bottom:10px; }
   .rest-card .rmeta{ display:flex; justify-content:space-between; align-items:baseline; margin-top:12px; padding-top:10px; border-top:1px solid var(--line); font-family:'IBM Plex Mono', monospace; font-size:0.78rem; color:var(--ink-soft); }
   .rest-card .rmeta .stars{ color:var(--amber); }
-  .rest-card p{ font-size:0.86rem; color:var(--ink-soft); line-height:1.55; margin:0; }
+  .rest-card p{ font-size:0.86rem; color:var(--ink-soft); line-height:1.55; margin:0; text-align:justify; text-justify:inter-word; }
 
   footer{ padding:30px 0 44px; border-top:1px solid var(--line); text-align:center; }
   .footer-mark{ font-family:'Fraunces', serif; font-weight:700; font-size:1.1rem; }
