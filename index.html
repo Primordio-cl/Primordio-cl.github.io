@@ -79,7 +79,9 @@
   .tl-item.valpo .tl-dot{ background:var(--cordillera); }
   .tl-date{ font-family:'IBM Plex Mono', monospace; font-size:0.7rem; color:var(--ink-soft); text-transform:uppercase; letter-spacing:0.04em; }
   .tl-title{ font-family:'Fraunces', serif; font-weight:600; font-size:1.05rem; margin:3px 0 4px; }
-  .tl-desc{ font-size:0.87rem; color:var(--ink-soft); line-height:1.55; }
+  .tl-desc{ font-size:0.87rem; color:var(--ink-soft); line-height:1.55; text-align:justify; text-justify:inter-word; }
+  .tl-desc p{ margin:0 0 10px; }
+  .tl-desc p:last-child{ margin-bottom:0; }
 
   /* MAPA */
   .map-layout{ display:grid; grid-template-columns:1.5fr 0.9fr; gap:28px; align-items:stretch; }
@@ -173,7 +175,7 @@
         <div class="tl-dot"></div>
         <div class="tl-date">Sáb 24 oct · Día 1</div>
         <div class="tl-title">✈️ Llegada a Santiago y la primera cena en Providencia.</div>
-        <div class="tl-desc">Permite que la primera noche sea una pequeña introducción al ambiente de Santiago. Una cena sugerida en Barrio Bellavista:<strong> Jardín Mallinkrodt - Bar Guayabo - Ay Lupita .</strong></div>
+        <div class="tl-desc">Permite que la primera noche sea una pequeña introducción al ambiente de Santiago. Una cena sugerida en Barrio Bellavista:<strong> Jardín Mallinkrodt - Bar Guayabo - Ay Lupita.</strong></div>
       </div>
       <div class="tl-item">
         <div class="tl-dot"></div>
@@ -183,7 +185,7 @@
           <p><strong>09:00 — Centro Histórico
             Recorrido a pie:</strong> Plaza de Armas - Catedral Metropolitana - Plaza de la Constitución - Palacio de La Moneda y Centro Cultural.</p>
           <p><strong>13:30 — Almuerzo:</strong> Para una experiencia tradicional típica chilena, una visita al mercado central, si prefieres te dejo estas otras opciones. ★4.3•Restaurante Donde Blanca — ★4.7•Restaurante El Galeón — ★4.7•Restaurante La Piojera.</p>
-		  <p><strong>15:00 — Caminata:</strong> Después de almorzar, camina por el emblemático <strong>Barrio Bellas Artes</strong>, visita el Cerro Santa Lucia, para luego recorrer el icónico <strong>Parque Forestal</strong>, hasta llegar al<strong> Barrio Lastarrias.</strong> No olvides el GAM (Centro Cultural Gabriela Mistral).</p>
+		  <p><strong>15:00 — Caminata:</strong> Después de almorzar, camina por el emblemático <strong>Barrio Bellas Artes</strong>, visita el Cerro Santa Lucia, para luego recorrer el icónico <strong>Parque Forestal</strong>, hasta llegar al<strong> Barrio Lastarrias.</strong> No olvides visitar el GAM (Centro Cultural Gabriela Mistral).</p>
 		  <p><strong>18:30 — Cena en Lastarrias:</strong> Buscas algo para terminar la noche: <strong>★4.8•Restaurante Holly Molly — ★4.8•Restaurant Bocanáriz.</strong></p>
         </div>
       </div>
@@ -215,7 +217,7 @@
         <div class="tl-desc">
           <p><strong>09:00 — Comenzar tranquilamente:</strong> Un desayuno en <strong>★4.8•Chilean Brunch</strong> — <strong>★4.8•Terrazas San Cristóbal.</strong> Para luego conocer el Funicular del Cerro San Cristóbal.</p>
           <p><strong>10:00 — Teleférico y Jardín Japones:</strong> Un oasis de calma en Santiago, senderos sinuosos, puentes de madera, estanques con peces y una vegetación seleccionada.</p>
-          <p><strong>13:00 — ¿Dónde almorzar?:</strong> ★ 4.6•Restaurante El Huerto, La carta es un mosaico que combina platos clásicos con fusiones globales, con un ambiente, rústico y acogedor. <b>Dirección: Orrego Luco 54, Providencia.</b></p>
+          <p><strong>13:00 — ¿Dónde almorzar?:</strong> ★ 4.6•Restaurante El Huerto, La carta es un mosaico que combina platos clásicos con fusiones globales, con un ambiente rústico y acogedor. <b>Dirección: Orrego Luco 54, Providencia.</b></p>
           <p><strong>15:30 — Parque de las Esculturas, Sky Costanera Center y Cena:</strong> Parque de las Esculturas: Camina por el museo al aire libre y espacio verde gratuito ubicado en la ribera norte del río Mapocho. Visita el Sky Costanera y disfrute de las vistas panorámicas desde uno de los puntos más altos de América Latina. Y por último, conoce el<strong> MUT (Mercado Urbano Tobalaba)</strong> para cenar en alguno de los diferentes restaurantes que posee.</p>
         </div>
       </div>
@@ -402,7 +404,7 @@
       <div class="rest-card">
         <div class="rzone">Providencia</div>
         <div class="rname">Liguria</div>
-        <p>Bar-restaurante ícono de Santiago, con varias sucursales (la de Manuel Montt es la más conocida). Cocina chilena con toques italianos, buen pisco sour y ambiente clásico porteño.</p>
+        <p>Bar-restaurante ícono de Santiago, con varias sucursales (Manuel Montt es la sede más conocida). Cocina chilena con toques italianos, buen pisco sour y ambiente clásico porteño.</p>
         <div class="rmeta"><span class="stars">★ 4.4</span><span>CLP 18.000-28.000 pax</span></div>
       </div>
     </div>
@@ -452,7 +454,7 @@
       <div class="tip-card wide">
         <div class="tip-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="6" width="20" height="12" rx="2"/><path d="M2 10h20M6 15h4"/></svg></div>
         <h3>¿Dónde cambiar dinero al llegar?</h3>
-        <p>En el aeropuerto hay casas de cambio, pero tienen la peor cotización de la ciudad — cambia ahí solo lo justo para el traslado (USD 30-50). El resto cámbialo en el <strong>Centro, Agustina con Paseo Ahumada </strong>(dirígete hasta la estación del metro Universidad de Chile, ve por la salida al Acceso B, por paseo Ahumada), donde hay varias casas de cambio compitiendo por mejor tasa o <strong>Providencia Av. Pedro de Valdivia, </strong>(Si vas en metro, ve hasta la estación Pedro de Valdivia)<b>.</b> Si usas cajero, pide que te cobren en pesos chilenos, nunca en tu moneda de origen.</p>
+        <p>En el aeropuerto hay casas de cambio, pero tienen la peor cotización de la ciudad — cambia ahí solo lo justo para el traslado (USD 30-50). El resto cámbialo en el Centro,<strong> Agustina con Paseo Ahumada </strong>(dirígete hasta la estación del metro Universidad de Chile, ve por la salida al Acceso B, por paseo Ahumada), donde hay varias casas de cambio compitiendo por mejor tasa o <strong>Providencia Av. Pedro de Valdivia, </strong>(Si vas en metro, ve hasta la estación Pedro de Valdivia)<b>.</b> Si usas el cajero, te cobrarán una comisión por retiro.</p>
       </div>
     </div>
   </div>
